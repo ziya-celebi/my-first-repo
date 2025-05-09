@@ -3,7 +3,7 @@ import { setupCalculatorUI } from './ui.js';
 import { hasConsecutiveOperators, evaluateExpression } from './util.js';
 
 const operators = ['+', '-', '*', '/', '='];
-
+console.log('hello');
 const calculatorDisplay = setupCalculatorUI(handleButtonClick);
 
 function handleButtonClick(buttonValue) {
